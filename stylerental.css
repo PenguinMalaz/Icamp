@@ -1,0 +1,546 @@
+* {
+	margin: 0px;
+	padding: 0px;
+	scroll-behavior: smooth;
+}
+
+@font-face{
+	font-family: 'Nexa';
+	src: url('nexa/Nexa-Heavy.ttf');
+}
+@font-face{
+	font-family: 'NexaLight';
+	src: url('nexa/Nexa-ExtraLight.ttf');
+}
+@font-face{
+	font-family: 'Codec-Cold-Bold';
+	src: url('codec/Codec-Cold-Bold-trial.ttf');
+}
+@font-face{
+	font-family: 'Codec-Cold-UltraBold';
+	src: url('codec/Codec-Cold-ExtraBold-trial.ttf');
+}
+@font-face{
+	font-family: 'Codec-Cold-Normal';
+	src: url('codec/Codec-Cold-Regular-trial.ttf');
+}
+.background > img {
+	z-index: -1;
+	position: absolute;
+}
+.grad {
+	width: 100%;
+	height: 720px;
+	background: linear-gradient(#17181d70, #17181dff);
+	z-index: -1;
+	position: absolute;
+}
+nav {
+	justify-content: center;
+	align-items: center;
+	position: fixed;
+	width: 100%;
+	display: flex;
+	margin-top: 10px;
+	z-index: 2;
+}
+.nav {
+	width: 80%;
+	display: flex;
+	justify-content: flex-end;
+}
+.nav > a > p {
+	font-size: 25px;
+	font-family: Codec-Cold-Bold;
+}
+.nav > a {
+	margin-left: 100px;
+	text-decoration: none;
+	border-bottom: 2px solid #00000000;
+	color: white;
+	transition: all;
+	transition-duration: 300ms;
+}
+.nav > a:hover {
+	color: #ff5555ff;
+	border-bottom: 2px solid #ff5555ff;
+}
+.logo > a{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.logo > a > img{
+	width: 100%;
+	padding: 12px;
+}
+
+/* content 1 */
+.content-1{
+	width: 50%;
+	height: 440px;
+	margin: auto 70px;
+	padding-top: 280px;
+	font-size: 25px;
+	color: white;
+	z-index: 2;
+}
+.content-1 > h1 {
+	font-family: Nexa;
+	margin-bottom: 12px;
+}
+.content-1 > p {
+	font-family: Codec-Cold-Bold;
+	font-size: 18px;
+	letter-spacing: 2px;
+	line-height: 1.2;
+}
+.background-2 > img{
+	position: absolute;
+	width: 100%;
+	z-index: -1;
+}
+.grad-2 {
+	width: 100%;
+	height: 720px;
+	background: linear-gradient(#17181dff, #17181d83, #17181dff);
+	z-index: -1;
+	position: absolute;
+}
+.content-2{
+	background: #17181dff;
+	width: 100%;
+	height: 720px;
+	margin: auto;
+	padding-top: 160px;
+	text-align: center;
+	font-size: 25px;
+	color: white;
+	z-index: 2;
+}
+.content-2 > .content {
+	width: 90%;
+	text-align: left;
+	display: flex;
+	margin: auto;
+	font-family: Nexa;
+	letter-spacing: 4px;
+}
+.content-2 > .card {
+	display: flex;
+	margin: auto;
+	margin-top: 30px;
+	width: 85%;
+	justify-content: space-between;
+}
+.content-2 > .card > .img > img{
+	width: 270px;
+	border-radius: 30px;
+	position: relative;
+}
+
+.content-2 > .card > .card1 > .content {
+	transition: all;
+	transition-duration: 300ms;
+	cursor: pointer;
+}
+.content-2 > .card > .card1 > .content:hover {
+	background: #1a1a1a80;
+	color: #ff5555ff;
+}
+.content-2 > .card > .img {
+	width: 100%;
+}
+
+.content-2 > .card > .card2 > .content {
+	transition: all;
+	transition-duration: 300ms;
+	cursor: pointer;
+}
+.content-2 > .card > .card2 > .content:hover {
+	background: #1a1a1a80;
+	color: #ff5555ff;
+}
+
+.content-2 > .card > .card3 > .content {
+	transition: all;
+	transition-duration: 300ms;
+	cursor: pointer;
+}
+.content-2 > .card > .card3 > .content:hover {
+	background: #1a1a1a80;
+	color: #ff5555ff;
+}
+
+.content-2 > .card > .card4 > .content {
+	transition: all;
+	transition-duration: 300ms;
+	cursor: pointer;
+}
+.content-2 > .card > .card4 > .content:hover {
+	background: #1a1a1a80;
+	color: #ff5555ff;
+}
+.content-2 > .card > .img > .content {
+	position: absolute;
+	width: 270px;
+	height: 300px;
+	margin: auto;
+	text-align: center;
+	background: ;
+}
+.content-2 > .card > .img > .content > h3 {
+	position: absolute;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	top: 80%;
+	font-family: Nexa;
+	letter-spacing: 4px;
+	font-size: 26px;
+}
+.content-2 > button {
+	color: white;
+	font-weight: bold;
+	font-size: 20px;
+	width: 300px;
+	margin-top: 30px;
+	padding: 15px 20px;
+	background: #ff5555ff;
+	border: none;
+	border-radius: 12px;
+	cursor: pointer;
+	letter-spacing: 5px;
+}
+.content-2 > .card > .img > .content > p {
+	font-family: Nexa;
+	font-size: 18px;
+	position: absolute;
+	left: 50%;
+	bottom: -5%;
+	transform: translate(-50%, -50%);
+}
+.img{
+	display: flex;
+	justify-content: space-between;
+}
+.content-3{
+	width: 50%;
+	height: 440px;
+	margin: auto 70px;
+	padding-top: 280px;
+	font-size: 25px;
+	color: white;
+	z-index: 2;
+}
+.content-3 > h1 {
+	font-family: Nexa;
+	margin-bottom: 12px;
+}
+.content-3 > p {
+	font-family: Codec-Cold-Bold;
+	font-size: 18px;
+	letter-spacing: 2px;
+	line-height: 1.2;
+}
+.content-4{
+	background: #17181dff;
+	width: 100%;
+	height: 720px;
+	margin: auto;
+	padding-top: 160px;
+	text-align: center;
+	font-size: 25px;
+	color: white;
+	z-index: 2;
+}
+.content-4 > .content {
+	width: 90%;
+	text-align: left;
+	display: flex;
+	margin: auto;
+	font-family: Nexa;
+	letter-spacing: 4px;
+}
+.content-4 > .card {
+	display: flex;
+	margin: auto;
+	margin-top: 30px;
+	width: 85%;
+	justify-content: space-between;
+}
+.content-4 > .card > .img > img{
+	width: 270px;
+	border-radius: 30px;
+	position: relative;
+}
+.content-4 > .card > .img {
+	width: 100%;
+}
+.content-4 > .card > .img > .content {
+	position: absolute;
+	width: 270px;
+	height: 300px;
+	margin: auto;
+	text-align: center;
+	background: ;
+}
+.content-4 > .card > .img > .content > h3 {
+	position: absolute;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	top: 80%;
+	font-family: Nexa;
+	letter-spacing: 4px;
+	font-size: 26px;
+	line-height: 1;
+}
+.content-4 > .card > .img > .content > img{
+	width: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	top: 94%;
+	position: absolute;
+}
+.content-4 > button {
+	color: white;
+	font-weight: bold;
+	font-size: 20px;
+	width: 300px;
+	margin-top: 30px;
+	padding: 15px 20px;
+	background: #ff5555ff;
+	border: none;
+	border-radius: 12px;
+	cursor: pointer;
+	letter-spacing: 5px;
+}
+.content-4 > .card > .img > .content > p {
+	font-family: Nexa;
+	font-size: 18px;
+	position: absolute;
+	left: 50%;
+	bottom: -10%;
+	transform: translate(-50%, -50%);
+}
+
+
+
+
+.content-4 > .card > .card1 > .content {
+	transition: all;
+	transition-duration: 300ms;
+	cursor: pointer;
+}
+.content-4 > .card > .card1 > .content:hover {
+	background: #1a1a1a80;
+	color: #ff5555ff;
+}
+
+.content-4 > .card > .card2 > .content {
+	transition: all;
+	transition-duration: 300ms;
+	cursor: pointer;
+}
+.content-4 > .card > .card2 > .content:hover {
+	background: #1a1a1a80;
+	color: #ff5555ff;
+}
+
+.content-4 > .card > .card3 > .content {
+	transition: all;
+	transition-duration: 300ms;
+	cursor: pointer;
+}
+.content-4 > .card > .card3 > .content:hover {
+	background: #1a1a1a80;
+	color: #ff5555ff;
+}
+
+.content-4 > .card > .card4 > .content {
+	transition: all;
+	transition-duration: 300ms;
+	cursor: pointer;
+}
+.content-4 > .card > .card4 > .content:hover {
+	background: #1a1a1a80;
+	color: #ff5555ff;
+}
+
+
+
+
+
+
+/*rental*/
+.background-3 > img{
+	position: absolute;
+	width: 100%;
+	z-index: -1;
+}
+.grad-3 {
+	width: 100%;
+	height: 720px;
+	background: linear-gradient(#17181dff, #17181d83, #17181dff);
+	z-index: -1;
+	position: absolute;
+}
+.content-5{
+	width: 50%;
+	height: 440px;
+	margin: auto 70px;
+	padding-top: 280px;
+	font-size: 25px;
+	color: white;
+	z-index: 2;
+}
+.content-5 > h1 {
+	font-family: Nexa;
+	margin-bottom: 12px;
+	line-height: 1;
+}
+.content-5 > p {
+	font-family: Codec-Cold-Bold;
+	font-size: 18px;
+	letter-spacing: 2px;
+	line-height: 1.2;
+}
+.content-6{
+	background: #17181dff;
+	width: 100%;
+	height: 720px;
+	margin: auto;
+	padding-top: 160px;
+	text-align: center;
+	font-size: 25px;
+	color: white;
+	z-index: 2;
+}
+.content-6 > .content {
+	width: 90%;
+	text-align: left;
+	display: flex;
+	margin: auto;
+	font-family: Nexa;
+	letter-spacing: 4px;
+}
+.content-6 > .card {
+	display: flex;
+	margin: auto;
+	margin-top: 30px;
+	width: 85%;
+	justify-content: space-between;
+}
+.content-6 > .card > .img > img{
+	width: 270px;
+	border-radius: 30px;
+	position: relative;
+}
+.content-6 > .card > .img {
+	width: 100%;
+}
+.content-6 > .card > .img > .content {
+	position: absolute;
+	width: 270px;
+	height: 300px;
+	margin: auto;
+	text-align: center;
+	background: ;
+}
+.content-6 > .card > .img > .content > h3 {
+	position: absolute;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	top: 80%;
+	font-family: Nexa;
+	letter-spacing: 4px;
+	font-size: 26px;
+	line-height: 1;
+}
+.content-6 > .card > .img > .content > img{
+	width: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	top: 94%;
+	position: absolute;
+}
+.content-6 > button {
+	color: white;
+	font-weight: bold;
+	font-size: 20px;
+	width: 300px;
+	margin-top: 30px;
+	padding: 15px 20px;
+	background: #ff5555ff;
+	border: none;
+	border-radius: 12px;
+	cursor: pointer;
+	letter-spacing: 5px;
+}
+.content-6 > .card > .img > .content > p {
+	font-family: Nexa;
+	font-size: 18px;
+	position: absolute;
+	left: 50%;
+	bottom: -10%;
+	transform: translate(-50%, -50%);
+}
+
+.content-6 > .card > .card1 > .content {
+	transition: all;
+	transition-duration: 300ms;
+	cursor: pointer;
+}
+.content-6 > .card > .card1 > .content:hover {
+	background: #1a1a1a80;
+	color: #ff5555ff;
+}
+
+.content-6 > .card > .card2 > .content {
+	transition: all;
+	transition-duration: 300ms;
+	cursor: pointer;
+}
+.content-6 > .card > .card2 > .content:hover {
+	background: #1a1a1a80;
+	color: #ff5555ff;
+}
+
+.content-6 > .card > .card3 > .content {
+	transition: all;
+	transition-duration: 300ms;
+	cursor: pointer;
+}
+.content-6 > .card > .card3 > .content:hover {
+	background: #1a1a1a80;
+	color: #ff5555ff;
+}
+
+.content-6 > .card > .card4 > .content {
+	transition: all;
+	transition-duration: 300ms;
+	cursor: pointer;
+}
+.content-6 > .card > .card4 > .content:hover {
+	background: #1a1a1a80;
+	color: #ff5555ff;
+}
+
+
+.footer {
+	width: 100%;
+	background: #ff5555ff;
+	color: white;
+	text-align: center;
+	padding: 16px 0px;
+	position: relative;
+	bottom: 0;
+}
+.footer > h3 {
+	font-family: Codec-Cold-Bold;
+	letter-spacing: 4px;
+}
+.footer > p > a {
+	text-decoration: none;
+	color: white;
+	font-family: NexaLight;
+}
